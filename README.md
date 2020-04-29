@@ -3,14 +3,14 @@
 </h1>
 
 <h3 align="center">
-  Desafio final: FastFeet 
+  Front-end web: Rocketshoes
 </h3>
 
 <p>Esse projeto é o Desafio Final para emissão do Certificado do Bootcamp GoStack, que se constitui de uma aplicação completa (Back-end, Front-end e Mobile) de gerenciamento logístico de uma transportadora fictícia chamada FastFeet.</p>
 
 ## Sobre o desafio
 
-**FastFeet** é uma aplicação de logística, feito com o intuíto de auxiliar no gerenciamento e no controle das entregas de encomendas.
+**RocketShoes** é uma aplicação de logística, feito com o intuíto de auxiliar no gerenciamento e no controle das entregas de encomendas.
 
 Esse auxílio é feito através de ferramentas que permitem, ao administrador, o cadastro de entregadores, destinatários e encomendas; a associação destas encomendas aos entregadores que, por sua vez, administram suas entregas através do aplicativo mobile; e o gerenciamento dos problemas ocorridos nas entregas possibilitando, eventualmente, o cancelamento das mesmas.
 
@@ -19,13 +19,8 @@ No aplicativo mobile, o entregador tem acesso às encomendas atribudas a ele (pe
 As tecnologias utilizadas no desenvolvimento, foram: **Node.js**, **ReactJS** e **React Native**.
 
 <p align="center">
-  <img alt="Fastfeet_mobile1" title="Fastfeet_mobile1" src=".github/fastfeet_mobile1.png" width="270px" height="570px" />
-  <img alt="Fastfeet_mobile2" title="Fastfeet_mobile2" src=".github/fastfeet_mobile2.png" width="270px" height="570px" />
-  <img alt="Fastfeet_mobile3" title="Fastfeet_mobile3" src=".github/fastfeet_mobile3.png" width="270px" height="570px" />
-</p>
-
-<p align="center">
-  <img alt="Fastfeet_web" title="Fastfeet_web" src=".github/fastfeet_web.png" width="100%" />
+  <img alt="Rocketshoes_main" title="Rocketshoes_main" src=".github/rocketshoes_main.png" width="100%" />
+  <img alt="Rocketshoes_cart" title="Rocketshoes_cart" src=".github/rocketshoes_cart.png" width="100%" />
 </p>
 
 ## Back-end
@@ -55,18 +50,4 @@ e
 ## Web
 
 Para executar a aplicação web você deve acessar, via terminal, a pasta `web` e executar: `yarn start`.
-
-## Mobile (somente Android)
-
-Para executar a aplicação Mobile você deve acessar, via terminal, a pasta `mobile` e seguir os seguintes passos:
-
-**1.** Configurar o arquivo `mobile/src/services/api.js` com ip correto (vide observações abaixo) para que a aplicação consiga acessar a api.
-
-**Obs1:** Se você for rodar a aplicação no AndroidStudio, o ip deve ser `'10.0.0.2'`; se for no geneMotion, `'10.0.3.2'`; e se for com o aparelho físico via usb, deve ser o ip da sua máquina.
-
-**Obs2:** Se a aplicação não estiver conseguindo acessar a api, faça o remapeamento de porta com o comando: `adb reverse tcp:3334 tcp:3334`.
-
-**2.** Agora rode o Metro Bundler com o comando `yarn start`.
-
-**3.** Em outra aba do terminal, instale a aplicação com o comando `react-native run-android`.
 
