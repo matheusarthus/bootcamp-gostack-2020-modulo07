@@ -1,12 +1,12 @@
 <h1 align="center">
-  <img alt="Fastfeet" title="Fastfeet" src=".github/logo.png" width="300px" />
+  <img alt="Fastfeet" title="Fastfeet" src=".github/logo.png" width="300px" border-radius:"5px" />
 </h1>
 
 <h3 align="center">
   Front-end web: Rocketshoes
 </h3>
 
-<p>Esse projeto é o Desafio Final para emissão do Certificado do Bootcamp GoStack, que se constitui de uma aplicação completa (Back-end, Front-end e Mobile) de gerenciamento logístico de uma transportadora fictícia chamada FastFeet.</p>
+<p>Esse projeto é referente ao módulo 7 da 10º edição do Bootcamp GoStack da Rocketset. </p>
 
 ## Sobre o desafio
 
