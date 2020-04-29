@@ -23,6 +23,10 @@ A aplicação foi criada com **ReactJS** seguindo a arquitetura **Flux** por mei
   <img alt="Rocketshoes_cart" title="Rocketshoes_cart" src=".github/rocketshoes_cart.png" width="100%" />
 </p>
 
+## Instalação
+
+Para instalar o projeto na sua máquina, basta executar o comando `git clone` na pasta onde você deseja baixar o projeto e depois, acessando a mesma via terminal, executar o comando `yarn` para baixar todas as libs e dependências necessárias.
+
 ## Back-end
 
 O back-end foi simulado através de uma fake REST API com **json-server**.  
