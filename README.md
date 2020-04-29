@@ -6,7 +6,7 @@
   Front-end web: Rocketshoes
 </h3>
 
-<p>Esse projeto é referente ao módulo 07 da 10ª edição do Bootcamp GoStack da Rocketseat. </p>
+<p align="center">Esse projeto é referente ao módulo 07 da 10ª edição do Bootcamp GoStack da Rocketseat. </p>
 
 ## Sobre o módulo
 
@@ -27,12 +27,15 @@ A aplicação foi criada com **ReactJS** seguindo a arquitetura **Flux** por mei
 
 O back-end foi simulado através de uma fake REST API com **json-server**.  
 
-Para executar a API preciso instalar o **json-server**
+Para executar a API é preciso instalar o **json-server** globalmente com o comando: 
 
-Para executar o back-end é preciso acessar, via terminal, a pasta `backend` e seguir os seguintes passos:
+`yarn global add json-server`
 
+E depois, para rodar o servidor, você deve acessar a pasta raiz do projeto via terminal e executar o comando: 
+
+`json-server server.json -p 3333`
 
 ## Web
 
-Para executar a aplicação web você deve acessar, via terminal, a pasta `web` e executar: `yarn start`.
+Para executar a aplicação web você deve acessar, via terminal, a pasta raiz do projeto e executar: `yarn start`.
 
