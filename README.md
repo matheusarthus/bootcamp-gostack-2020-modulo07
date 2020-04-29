@@ -3,16 +3,16 @@
 </h1>
 
 <h3 align="center">
-  Front-end web: Rocketshoes
+  Front-end web: RocketShoes
 </h3>
 
-<p align="center">Esse projeto é referente ao módulo 07 da 10ª edição do Bootcamp GoStack da Rocketseat. </p>
+<p align="center">Esse projeto é referente ao módulo 07 da 10ª edição do Bootcamp GoStack da **Rocketseat.</p>
 
 ## Sobre o módulo
 
 **RocketShoes** é uma aplicação web de e-commerce referente à uma loja fictícia de venda de tênis. 
 
-O e-commerce se constítui de duas páginas: uma principal, a vitrine com os produtos; e o carrinho, onde ficam listados os items, as quantidades dos produtos e os valores referentes aos produtos que o usuário selecionou para compra.
+O e-commerce se constítui de duas páginas: uma principal, a vitrine com os produtos; e o carrinho, onde ficam listados os items, as quantidades e os valores referentes aos produtos que o usuário selecionou para compra.
 
 A aplicação foi criada com **ReactJS** seguindo a arquitetura **Flux** por meio das libs **Redux** e **Redux Saga**. 
 
@@ -35,7 +35,7 @@ E depois, para rodar o servidor, você deve acessar a pasta raiz do projeto via 
 
 `json-server server.json -p 3333`
 
-## Web
+## Front-end
 
 Para executar a aplicação web você deve acessar, via terminal, a pasta raiz do projeto e executar: `yarn start`.
 
