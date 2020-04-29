@@ -1,12 +1,12 @@
 <h1 align="center">
-  <img alt="Fastfeet" title="Fastfeet" src=".github/logo.png" width="300px" border-radius:"5px" />
+  <img alt="Fastfeet" title="Fastfeet" src=".github/logo.png" width="300px" />
 </h1>
 
 <h3 align="center">
   Front-end web: RocketShoes
 </h3>
 
-<p align="center">Esse projeto é referente ao módulo 07 da 10ª edição do Bootcamp GoStack da **Rocketseat.</p>
+<p align="center">Esse projeto é referente ao módulo 07 da 10ª edição do Bootcamp GoStack da Rocketseat.</p>
 
 ## Sobre o módulo
 
