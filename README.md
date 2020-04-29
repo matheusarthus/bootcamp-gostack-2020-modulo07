@@ -6,46 +6,31 @@
   Front-end web: Rocketshoes
 </h3>
 
-<p>Esse projeto é referente ao módulo 7 da 10º edição do Bootcamp GoStack da Rocketset. </p>
+<p>Esse projeto é referente ao módulo 07 da 10ª edição do Bootcamp GoStack da Rocketseat. </p>
 
-## Sobre o desafio
+## Sobre o módulo
 
-**RocketShoes** é uma aplicação de logística, feito com o intuíto de auxiliar no gerenciamento e no controle das entregas de encomendas.
+**RocketShoes** é uma aplicação web de e-commerce referente à uma loja fictícia de venda de tênis. 
 
-Esse auxílio é feito através de ferramentas que permitem, ao administrador, o cadastro de entregadores, destinatários e encomendas; a associação destas encomendas aos entregadores que, por sua vez, administram suas entregas através do aplicativo mobile; e o gerenciamento dos problemas ocorridos nas entregas possibilitando, eventualmente, o cancelamento das mesmas.
+O e-commerce se constítui de duas páginas: uma principal, a vitrine com os produtos; e o carrinho, onde ficam listados os items, as quantidades dos produtos e os valores referentes aos produtos que o usuário selecionou para compra.
 
-No aplicativo mobile, o entregador tem acesso às encomendas atribudas a ele (pendentes e já concluídas); tem os recursos de confirmação de retirada de encomenda e de entrega conclúida (atestada por uma foto da assinatura do destinatário); e, também, a possibilidade de cadastrar um problema com uma entrega especfica e visualizar o histórico de problemas atribuídos.
-
-As tecnologias utilizadas no desenvolvimento, foram: **Node.js**, **ReactJS** e **React Native**.
+A aplicação foi criada com **ReactJS** seguindo a arquitetura **Flux** por meio das libs **Redux** e **Redux Saga**. 
 
 <p align="center">
+  <p>Página principal:</p>
   <img alt="Rocketshoes_main" title="Rocketshoes_main" src=".github/rocketshoes_main.png" width="100%" />
+  <p>Página do carrinho:</p>
   <img alt="Rocketshoes_cart" title="Rocketshoes_cart" src=".github/rocketshoes_cart.png" width="100%" />
 </p>
 
 ## Back-end
 
+O back-end foi simulado através de uma fake REST API com **json-server**.  
+
+Para executar a API preciso instalar o **json-server**
+
 Para executar o back-end é preciso acessar, via terminal, a pasta `backend` e seguir os seguintes passos:
 
-**1.** Criar containers de Postgres e Redis no Docker, com o comando:
-
-`docker run --name db_fastfeet -e POSTGRES_PASSWORD=docker -p 5433:5432 -d postgres`
-
-e
-
-`docker run --name redisfastfeet -p 6380:6379 -d -t redis:alpine`
-
-**2.** Iniciar bancos de dados no Docker, com o comando: 
-
-`docker start db_fastfeet redisfastfeet`
-
-**3.** Gerar as tabelas no banco de dados, através das migrations e seeds do Sequelize, com os comandos:
-
-`yarn sequelize db:migrate` e `yarn sequelize db:seed:all`
-
-**4.** Configurar o MailTrap no arquivo `web/src/config/mail.js` com o `user` e `pass` da sua conta.
-
-**5.** Finalmente, executar o comando `yarn dev` para rodar a api.
 
 ## Web
 
